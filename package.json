@@ -1,11 +1,34 @@
 {
-  "name": "fintrack-app",
+  "name": "index.js",
   "version": "1.0.0",
-  "description": "finacial management webapp",
-  "main": "server.js",
+  "description": "An App that track your expenditure and business transactions",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkrest1/fintrack-app.git"
   },
   "author": "Akande Oluwatosin",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkrest1/fintrack-app/issues"
+  },
+  "homepage": "https://github.com/dkrest1/fintrack-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3",
+    "passport": "^0.6.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20"
+  }
 }
