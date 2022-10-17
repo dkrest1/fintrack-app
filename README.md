@@ -6,5 +6,6 @@ It's a financial management website where you can manage your business, track pa
 
 ### Team
 
-- Akande Oluwatosin
-- Ayomide
+- Designed by Ayomide
+- Developed by Akande Oluwatosin
+
